@@ -1,8 +1,3 @@
-# React JS Landing Page Template
-
-**
-
-
 ### <a href="https://react-lading-page-gilt.vercel.app/">LIVE DEMO</a> 
 
 ## Description

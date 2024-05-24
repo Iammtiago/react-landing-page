@@ -1,0 +1,11 @@
+.img-logo {
+  width: 192px;
+  height: 79px;
+  padding: 2px;
+  position: absolute;
+  top: -3px;
+  left: 70px;
+  background-repeat: no-repeat;
+  background-image: url("./../public/img/domoluz-logo.png");
+  background-size: contain;
+}

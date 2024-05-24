@@ -1,4 +1,5 @@
 import React from "react";
+import './../components.css';
 
 export const Navigation = (props) => {
   return (
@@ -17,8 +18,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Domoluz
+          <a className="navbar-brand page-scroll img-logo" href="#page-top">
+            {/* domoluz */}
           </a>{" "}
         </div>
 
