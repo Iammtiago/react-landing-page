@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "TITLE DOMOLUZ",
+    "title": "Iluminación y Domótica",
     "paragraph": "PARAGRAPH Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
@@ -132,32 +132,37 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Esteban Corredor",
+      "job": "Electronic Engineer"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Jesus Chacon",
+      "job": "Mechanical Engineer"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
+      "name": "Maria Molina",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/02.jpg",
+      "name": "Jose Meneses",
+      "job": "Mechanical Engineer"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Santiago Rodriguez",
+      "job": "Senior Designer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Venezuela, Táchira, San Cristobal, Barrio el Lobo",
+    "phone": "+58 123 456 1234",
+    "email": "contact@domoluz.com",
+    "facebook": "facebook.com/domoluz.com",
+    "twitter": "twitter.com/domoluz.com",
+    "youtube": "youtube.com/domoluz.com"
   },
   "Features": [
     {
