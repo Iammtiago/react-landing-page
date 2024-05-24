@@ -1,11 +1,24 @@
 .img-logo {
-  width: 192px;
-  height: 79px;
+  width: 179px;
+  height: 118px;
   padding: 2px;
   position: absolute;
-  top: -3px;
-  left: 70px;
+  top: -21px;
+  left: 35px;
+  background-image: url("./../public/img/domoluz-logo-hd.png");
   background-repeat: no-repeat;
-  background-image: url("./../public/img/domoluz-logo.png");
   background-size: contain;
+  background-position-x: center;
+}
+
+#menu.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  content: "";
+  transition: width 0.2s;
 }

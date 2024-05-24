@@ -1,0 +1,18 @@
+paleta de colores:
+
+Color Principal (Negro) #000000 logo, textos y encabezados.
+
+Color Secundario (Blanco) #FFFFFF fondo principal 
+
+degradado de colores entre #6372ff 0%, #5ca9fb 100% para los botones, enlaces y elementos interactivos
+
+Color Accion (Azul Oscuro) #0A3D62 botones, enlaces y elementos interactivos.
+
+Color Complementario (Verde Claro)#7CB342 usar poco, resaltar elementos importantes, como promociones
+
+Color Neutro (Gris Claro) #E0E0E0 fondos secundarios, bordes y separadores
+
+Fondo Alternativo (Gris Oscuro) #424242 fondos de secciones, pies de página y elementos que necesitan destacarse sin usar el color principal
+
+Degradado #6372ff 0%, #5ca9fb 100% usar en lineas como subrayadopara resaltar texto
+
