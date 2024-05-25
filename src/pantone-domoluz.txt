@@ -16,3 +16,4 @@ Fondo Alternativo (Gris Oscuro) #424242 fondos de secciones, pies de página y e
 
 Degradado #6372ff 0%, #5ca9fb 100% usar en lineas como subrayadopara resaltar texto
 
+

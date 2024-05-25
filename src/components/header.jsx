@@ -1,4 +1,5 @@
 import React from "react";
+import './../components.css';
 
 export const Header = (props) => {
   return (
@@ -7,12 +8,13 @@ export const Header = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 pt-5 pb-5 text-center intro-text">
-                <h1>
+              <div className="col-md-8 col-md-offset-2 pt-5 pb-5 text-center " style={{ paddingTop: '160px', paddingBottom: '150px', fontSize: '32px' }}>
+                <h1 className="text-color-p">
                   {props.data ? props.data.title : "Loading"}
-                  <span></span>
+                  {/* intro-text */}
+                  <span className="text-color-p"></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p className="text-color-p ">{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"

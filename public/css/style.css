@@ -36,7 +36,7 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -58,8 +58,8 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  -webkit-padding: 0;
+  -moz-padding: 0;
 }
 hr {
   height: 2px;
@@ -602,5 +602,14 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-left: 150px;
   }
 }
