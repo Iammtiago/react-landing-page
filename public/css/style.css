@@ -244,6 +244,11 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+.container p {
+  color: #424242;
+}
+
 /* Features Section */
 #features {
   /* background: #f6f6f6; */
@@ -284,6 +289,11 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+
+#about div .about-text li {
+  color: #424242;
+}
+
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -369,12 +379,15 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
-  background: linear-gradient(
+  color: #111;
+  /* background: rgba(99, 114, 255, 0.8); */
+  background: rgba(224, 224, 224, 0.7);
+
+  /* background: linear-gradient(
     to right,
     rgba(99, 114, 255, 0.8) 0%,
     rgba(92, 169, 251, 0.8) 100%
-  );
+  ); */
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
@@ -383,7 +396,9 @@ header .intro-text {
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
-  color: #fff;
+  /* color: #fff; */
+  color: #111;
+
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
@@ -394,7 +409,8 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; /* For Safari */
+  backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
