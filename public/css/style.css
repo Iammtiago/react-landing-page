@@ -246,7 +246,8 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
+  background: #f9f9f9;
 }
 #features i.fa {
   font-size: 38px;
@@ -262,6 +263,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  background: #e0e0e0;
   padding: 100px 0;
 }
 #about h3 {
@@ -602,6 +604,30 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media (max-width: 947px) {
+  a.img-logo {
+    width: 179px;
+    height: 124px;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    /* background-position-x: center; */
+  }
+}
+
+@media (max-width: 768px) {
+  a.img-logo {
+    width: 179px;
+    height: 118px;
+    padding: 2px;
+    position: absolute;
+    top: -21px;
+    left: 35px;
+    background-position-x: center;
   }
 }
 
